@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../site-webstandard/css/reset.css">
+    <style>
+        #wrap { }
+        #header { height: 100px;background-color: #111; color: #fff; }
+        #banner {height: 300px; background-color: #222; color: #fff; }
+        #content1 {height: 400px; background-color: #333; color: #fff; } 
+        #content1 .a {width: 248px; height: 198px; background-color: #fff; float: left; margin: 1px;}
+        
+        #content2 {height: 200px; background-color: #444; color: #fff; }
+        #content3 {height: 300px; background-color: #555; color: #fff; }
+        #content3 .b {position: relative; width: 400px; height: 200px;background-color: #fff; float: left; margin: 25px;}
+        #content3 .b h4 {color: aqua; font-size: 14px; padding: 8px;}
+        #content3 .b ul {padding: 8px; }
+        #content3 .b li {background:url(../site-webstandard/img/dot.gif)no-repeat 0 8px; }
+        #content3 .b li a {padding-left: 8px; }
+        #content3 .b .more {position: absolute; top: 0; right: 0; background:url(../site-webstandard/img/icon.png) -150px -90px; width: 17px;height: 17px; }
+        #content3 .c {width: 400px; height: 200px;background-color: #fff; float: left; margin: 25px;}
+        
+        
+        #footer {height: 150px; background-color: #666; color: #fff; line-height: 150px;}
+        
+        .asd {width: 1000px; height: inherit; background-color: rgba(0,0,0,0.1); margin: 0 auto;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="asd">header</div>
+        </div>
+        <div id="banner">
+            <div class="asd">banner</div>
+        </div>
+        <div id="content1">
+            <div class="asd">
+                <div class="a"></div>
+                <div class="a"></div>
+                <div class="a"></div>
+                <div class="a"></div>
+                <div class="a"></div>
+                <div class="a"></div>
+                <div class="a"></div>
+                <div class="a"></div>
+            </div>
+        </div>
+        <div id="content2">
+            <div class="asd">content2</div>
+        </div>
+        <div id="content3">
+            <div class="asd">
+                <div class="b">
+                    <h4>웹 퍼블리셔 면접 질문</h4>
+                    <ul>
+                        <li><a href="#">display: inline과 display: black의 차이점은 무엇인가요?</a></li>
+                        <li><a href="#">HTML 태그 중에 dl, dd, ul, li, ol 의 차이점은 무엇인가요?</a></li>
+                        <li><a href="#">HTML 태그 중에 strong과 em 태그의 차이점은 무엇인가요?</a></li>
+                        <li><a href="#">컨텐츠 요소를 가운데로 옥게 하는 방법을 알려주세요?</a></li>
+                        <li><a href="#">독타입을 선언하는 이유에 대해서 설명하세요!</a></li>
+                    </ul>
+                    <a href="d" class="more ir_pm">더보기</a>
+                    
+                </div>
+                <div class="c">
+                    <h4>최신 공지사항</h4>
+                    <ul>
+                        <li><a href="#">JPG, PNG, GIF의 차이점은 무엇인가요?</a><span>2019.10.29</span></li>
+                        <li><a href="#">UI 디자인과 UX 디자인의 차이점은 무엇인가요?</a><span>2019.10.29</span></li>
+                        <li><a href="#">인터렉션 디자인의 핵심을 설명하세요.</a><span>2019.10.29</span></li>
+                    </ul>
+                    <a href="d" class="more">더보기</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="asd">footer</div>
+        </div>
+    </div>
+</body>
+</html>

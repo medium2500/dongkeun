@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0; }
+        #wrap {  }
+        #header {width: 100%; height: 100px; background-image: url(../site-webstandard/img/header_bg.jpg);background-repeat: repeat-x;}
+        #banner {width: 100%; height: 500px; background-image: url(../site-webstandard/img/header_bg.jpg); background-repeat: repeat-x;}
+        .container {width: 1200px; margin: 0 auto; }
+        #content1 {overflow: hidden; }
+        #content1 .cont1-side {width: 30%;height: 500px; background-color: #90caf9; float: left;}
+        #content1 .cont1-top {width: 70%; height: 250px; background-color: #64b5f6; float: left; }
+        #content1 .cont1-btm {width: 70%; height: 250px; background-color: #42a5f5; float: left;}
+        #content2 {overflow: hidden; }
+        #content2 .cont2-1{width: 33.3333%; height: 300px; background-color: #1e88e5 ; float: left;}
+        #content2 .cont2-2 {width: 33.3333%; height: 300px; background-color: #1976d2 ; float: left;}
+        #content2 .cont2-3 {width: 33.3333%; height: 300px; background-color: #1565c0 ; float: left;}
+        #content3 {overflow: hidden; background-color: #42a5f5 ; padding: 3%;}
+        #content3 >article {width: 21%; margin: 2%; height: 200px; background-color: #82b1ff ; float: left; border-radius: 8px;}
+        #footer {width: 100%; height: 100px; background-color: #448aff ; }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <section class="header-img"></section>
+        </header>
+        <section id="banner"></section>
+        <div class="container">
+            <section id="content1">
+                <article class="cont1-side"></article>
+                <article class="cont1-top"></article>
+                <article class="cont1-btm"></article>
+            </section>
+            <section id="content2">
+                <article class="cont2-1"></article>
+                <article class="cont2-2"></article>
+                <article class="cont2-3"></article>
+            </section>
+            <section id="content3">
+                <article class="cont3"></article>
+                <article class="cont3"></article>
+                <article class="cont3"></article>
+                <article class="cont3"></article>
+            </section>
+            <section id="footer"></section>
+            
+        </div>  
+    </div>
+</body>
+</html>

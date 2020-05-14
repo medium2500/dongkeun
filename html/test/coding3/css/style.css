@@ -1,0 +1,29 @@
+/* 리셋 */
+* {margin: 0; padding: 0;}
+a {color: #222328; text-decoration: none;}
+li {list-style: none;}
+
+#wrap {width: 1000px; margin: 0 auto; }
+
+.side {width: 300px; height: 900px;  float: left;}
+.side img {width: 170px; }
+.side strong {color: #00abf4; }
+.side ul li {padding: 10px;  border-bottom: 1px solid #000; font-weight: bold;}
+.side h4 {padding: 10px; font-weight: bold;}
+.article1 {width: 700px; height: 300px; background-color: 666 ;float: right;}
+.article1 img {width: 700px; height: 310px; float: left;}
+.article2 {width: 700px; height: 300px;  float: right;}
+.article2 h3 {text-align: center; padding: 30px;}
+.article2 ul li {float: left; text-align: center;}
+.article2 img {width: 70px; margin: 13px; padding: 21px; ;}
+.article3 {width: 700px; height: 300px; background-color: #f7f7f7; float: right; overflow: hidden;}
+.article3 h3 {text-align: center; margin-top: 10px;}
+.article3 img {width: 70px; margin-top: 15px; margin-left: 35px;}
+.article3 div {width: 150px; height: 200px; float: left; background: #fff; margin: 41px;position: relative;}
+.article3 div ul {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.article3 span {position: relative; left: 80px; top: -195px;}
+.article3 span img {width: 30px; }
+.footer {width: 1000px; height: 90px; background-color: #edf2f8; clear: both; overflow: hidden;}
+.footer img {width: 60px; float: left; margin-top: 10px;}
+.footer div img{width: 110px; float: right; margin-top: -67px; margin-right: 10px;}
+.footer ul {margin-left: 100px; margin-top: 20px; }
